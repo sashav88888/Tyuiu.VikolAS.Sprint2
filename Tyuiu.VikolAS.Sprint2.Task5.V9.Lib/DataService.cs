@@ -34,9 +34,11 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9.Lib
                     break;
             }
 
-            // Если сегодня не последний день месяца — просто увеличиваем день
-            // Иначе — переходим на 1 число следующего месяца
-            return (n < lastDay) ? $"{n + 1}.{m}" : $"1.{m + 1}";
+            int nextDay = (n < lastDay) ? n + 1 : 1;
+            int nextMonth = (n < lastDay) ? m : m + 1;
+
+            // Формат dd.MM: два знака для дня и месяца, с ведущими нулями
+            return $"{nextDay:D2}.{nextMonth:D2}";
         }
     }
 }
