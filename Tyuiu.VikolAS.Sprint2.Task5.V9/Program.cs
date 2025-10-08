@@ -28,7 +28,6 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9
 
             Console.WriteLine(ds.FindDateOfNextDay(m, n));
           
-
             Console.ReadKey();
         }
     }

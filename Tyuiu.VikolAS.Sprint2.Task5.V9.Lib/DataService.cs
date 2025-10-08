@@ -37,7 +37,7 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9.Lib
             int nextDay = (n < lastDay) ? n + 1 : 1;
             int nextMonth = (n < lastDay) ? m : m + 1;
 
-            // Формат dd.MM: два знака для дня и месяца, с ведущими нулями
+            
             return $"{nextDay:D2}.{nextMonth:D2}";
         }
     }
