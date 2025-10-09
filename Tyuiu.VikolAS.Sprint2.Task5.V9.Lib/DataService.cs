@@ -15,6 +15,7 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9.Lib
             // Используем switch, чтобы определить количество дней в месяце
             switch (m)
             {
+          
                 case 2:
                     // Февраль (по условию без високосных лет) — 28 дней
                     lastDay = 28;

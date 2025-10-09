@@ -18,5 +18,6 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9.Test
             Assert.AreEqual("09.09", ds.FindDateOfNextDay(9, 8));  
         }
 
+
     }
 }
