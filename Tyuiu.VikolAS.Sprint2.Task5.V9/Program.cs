@@ -17,7 +17,7 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9
             Console.WriteLine("******************************************   *");
             Console.WriteLine("* УСЛОВИЕ :                                   *");
             Console.WriteLine("* Дата некоторого дня характеризуется двумя натуральными числами: m (порядковый номер месяца) и n (число). *");
-            Console.WriteLine("* По заданным n и m определить дату следующего дня (принять, что n и m не характеризуют 31 декабря). *"); 
+            Console.WriteLine("* По заданным n и m определить дату следующего дня (принять, что n и m не характеризуют 31 декабря). *");
             Console.WriteLine("*****************************************    *");
 
             Console.Write("Введите номер месяца (m): ");
@@ -27,7 +27,7 @@ namespace Tyuiu.VikolAS.Sprint2.Task5.V9
             int n = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(ds.FindDateOfNextDay(m, n));
-          
+
 
             Console.ReadKey();
         }
