@@ -28,8 +28,8 @@ namespace Tyuiu.VikolAS.Sprint2.Task6.V8.Lib
             // Используем switch, чтобы определить, сколько дней было в *предыдущем* месяце.
             switch (prevMonth)
             {
-                case 2: // Если предыдущий месяц - февраль
-                    lastDayOfPrevMonth = 28; // В нем 28 дней
+                    case 2:
+                        prevDay = 28;
                     break;
 
                 case 4:  // Если предыдущий - апрель,
