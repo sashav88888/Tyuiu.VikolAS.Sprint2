@@ -19,7 +19,6 @@ namespace Tyuiu.VikolAS.Sprint2.Task6.V8
             Console.WriteLine("* Написать программу на C#, которая запрашивает исходные данные (вещественные значения) и вычисляет, *");
             Console.WriteLine("* находится ли точка с координатами X,Y в заштрихованной области. *");
             Console.WriteLine("*****************************************    *");
-
             Console.Write("Введите X: ");
             double x = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите Y: ");
