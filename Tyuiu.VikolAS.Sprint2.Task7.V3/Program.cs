@@ -23,7 +23,6 @@ namespace Tyuiu.VikolAS.Sprint2.Task6.V8
             double x = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
-
             bool result = ds.CheckDotInShadedArea(x, y);
 
             if (result)

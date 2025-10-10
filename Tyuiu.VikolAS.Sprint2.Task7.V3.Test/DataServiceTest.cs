@@ -6,7 +6,6 @@ public sealed class DataServiceTest
     [TestMethod]
     public void ValidCheckDotInShadedArea()
     {
-
         DataService ds = new DataService();
 
         double x = 0.7;
